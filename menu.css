@@ -5,6 +5,7 @@ body {
     padding: 0;
 }
 
+
 header {
     background-color: #333;
     padding: 10px 0;
@@ -28,6 +29,7 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+/* Page title styling */
 .page-title {
     text-align: center;
     font-size: 2em;
@@ -40,6 +42,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Main paragraph section */
 .main-paragraph p {
     width: 80%;
     margin: 0 auto;
@@ -47,6 +50,7 @@ h1 {
     line-height: 1.6;
 }
 
+/* Topic columns styling */
 .topics {
     display: flex;
     justify-content: space-around;
@@ -72,6 +76,16 @@ h1 {
     line-height: 1.5;
 }
 
+.topic-image {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+/* Image gallery styling */
 .image-gallery {
     margin-top: 40px;
     text-align: center;
@@ -98,45 +112,7 @@ h1 {
     object-fit: cover;
 }
 
-.data-table {
-    width: 80%;
-    margin: 30px auto;
-    text-align: center;
-}
-
-.data-table table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-    background-color: white;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-}
-
-.data-table th, .data-table td {
-    border: 1px solid #ddd;
-    padding: 12px;
-}
-
-.data-table th {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.data-links {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.data-links ul {
-    list-style: none;
-    padding: 0;
-}
-
-.data-links li {
-    display: inline;
-    margin: 0 10px;
-}
-
+/* Footer styling */
 footer {
     background-color: #333;
     color: white;
