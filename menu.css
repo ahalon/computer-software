@@ -38,8 +38,16 @@ nav ul li a:hover {
 }
 
 h1 {
-    text-align: center;
     color: green;
+    margin-bottom: 20px;
+}
+
+.page-title {
+    text-align: center;
+    color: #333; 
+    font-size: 2em;
+    padding-bottom: 1cm; 
+    border-bottom: 2px solid #ccc; 
     margin-bottom: 20px;
 }
 
@@ -48,6 +56,68 @@ h1 {
     font-style: italic;
     margin: 1cm 0;
 }
+
+
+.data-table {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.data-table h3 {
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid black; 
+    padding: 10px;
+    text-align: left;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+}
+
+
+.data-links {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.data-links h3 {
+    margin-bottom: 15px;
+    color: #FF9800;
+}
+
+.data-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.data-links li {
+    display: block; 
+    margin: 10px 0;
+}
+
+.data-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.data-links a:hover {
+    text-decoration: underline;
+}
+
 
 .topics {
     display: flex;

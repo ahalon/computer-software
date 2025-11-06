@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Klawiatura Mechaniczna",
+    "price": 450.99,
+    "inStock": true,
+    "tags": ["peryferia", "gaming", "mechaniczna"]
+  },
+  {
+    "id": 2,
+    "name": "Monitor 27 cali",
+    "price": 1299.00,
+    "inStock": false,
+    "tags": ["ekran", "biuro", "ultrawide"]
+  },
+  {
+    "id": 3,
+    "name": "Myszka Bezprzewodowa",
+    "price": 89.50,
+    "inStock": true,
+    "tags": ["peryferia", "ergonomia", "bezprzewodowa"]
+  }
+]
