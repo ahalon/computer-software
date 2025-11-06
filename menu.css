@@ -214,13 +214,4 @@ footer a {
     padding: 10px;
     background-color: #5cb85c;
     color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 1.1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.form-container button[type="submit"]:hover {
-    background-color: #4cae4c;
 }
