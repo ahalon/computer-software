@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Contact Form</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="menu.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="image.html">Images</a></li>
+                <li><a href="form.html">Contact Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="form-title">Skontaktuj Się z Nami!</h1>
+
+    <div class="form-container">
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Imię i Nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Adres E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-checkboxes">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Chcę otrzymywać newsletter</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Akceptuję regulamin</label>
+                </div>
+            </div>
+
+            <button type="submit">Wyślij Formularz</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Learn more about computer software from these sources:</p>
+        <ul>
+            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+            <li><a href="https://www.techradar.com" target="_blank">TechRadar</a></li>
+            <li><a href="https://www.stackoverflow.com" target="_blank">StackOverflow</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
